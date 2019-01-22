@@ -1,0 +1,47 @@
+body{
+	height: 100vh;
+	background-color: #252830!important;
+}
+.icon-search {
+	position: absolute;
+	right: 50px;
+}
+.btn-create {
+	outline: none!important;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #ccc;
+	cursor: pointer;
+	background-color: #51586A;
+}
+.btn-create:hover {
+	background-image: linear-gradient(to right, #516090 , #92A9ED);
+	color: #fff;
+}
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #434857!important;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #434857!important;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #434857!important;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #434857!important;
+}
+a {
+	color: #ccc!important;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+a:hover {
+	text-decoration: none!important;
+	color: #fff!important;
+	background-image: linear-gradient(to right, #516090 , #92A9ED);
+}
